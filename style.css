@@ -1,0 +1,185 @@
+```css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f2fa;
+    color: #333;
+}
+
+
+/* MENU */
+
+header {
+    background-color: #7354a8;
+    color: white;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* INÍCIO */
+
+.inicio {
+    background-color: #e9e1f7;
+    padding: 60px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto {
+    max-width: 550px;
+}
+
+.texto h2 {
+    font-size: 45px;
+    color: #7354a8;
+    margin: 10px 0;
+}
+
+.texto h3 {
+    font-size: 22px;
+}
+
+.texto p {
+    line-height: 1.6;
+}
+
+.inicio img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+
+/* BOTÃO */
+
+.botao {
+    display: inline-block;
+    background-color: #7354a8;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.botao:hover {
+    background-color: #543783;
+}
+
+
+/* PARTES */
+
+.parte {
+    background-color: white;
+    margin: 30px 10%;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+.parte h2 {
+    color: #7354a8;
+    margin-top: 0;
+}
+
+.parte p {
+    line-height: 1.7;
+}
+
+
+/* CAIXAS */
+
+.caixas {
+    display: flex;
+    gap: 20px;
+}
+
+.caixa {
+    background-color: #f5f2fa;
+    border: 1px solid #ddd;
+    padding: 20px;
+    flex: 1;
+    border-radius: 8px;
+}
+
+.caixa h3 {
+    color: #7354a8;
+}
+
+
+/* LISTA */
+
+li {
+    margin-bottom: 10px;
+}
+
+
+/* RODAPÉ */
+
+.contato {
+    background-color: #7354a8;
+    color: white;
+    text-align: center;
+    padding: 35px;
+    margin-top: 30px;
+}
+
+.contato h2 {
+    margin-top: 0;
+}
+
+
+/* CELULAR */
+
+@media (max-width: 700px) {
+
+    header {
+        display: block;
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 15px;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+
+    .inicio {
+        display: block;
+        text-align: center;
+    }
+
+    .texto {
+        margin-bottom: 30px;
+    }
+
+    .caixas {
+        display: block;
+    }
+
+    .caixa {
+        margin-bottom: 15px;
+    }
+}
+```
